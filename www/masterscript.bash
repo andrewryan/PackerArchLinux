@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-HOSTNAME="temporaryUser"
+HOSTNAME="temporaryHost"
 
 printf "#####> Formatting disk" 
 printf "n\n\n\n\n\nw\ny\n" | gdisk /dev/sda
